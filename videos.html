@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VORTEX STUDIO💫 - الفيديوهات</title>
+  <style>
+    /* تنسيق مستوحى من تأثير البرق والكهرباء بدون أنميشن */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0d0d0d, #151515);
+      color: #e0e0e0;
+      direction: rtl;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #141414, #1a1a1a);
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 2px solid #00ffff;
+    }
+    header img.logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      font-size: 3em;
+      color: #00ffff;
+      margin-bottom: 10px;
+      text-shadow: 0 0 10px #00ffff;
+    }
+    nav {
+      background: #141414;
+      border-top: 1px solid #00ffff;
+      border-bottom: 1px solid #00ffff;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 15px 0;
+    }
+    nav ul li {
+      margin: 0 20px;
+    }
+    nav ul li a {
+      color: #e0e0e0;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: color 0.3s, text-shadow 0.3s;
+    }
+    nav ul li a:hover {
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff;
+    }
+    section {
+      background: #1a1a1a;
+      margin: 30px auto;
+      padding: 30px;
+      width: 90%;
+      max-width: 1200px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.8);
+      border: 1px solid #00ffff;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2.5em;
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-gap: 20px;
+    }
+    .grid-item {
+      background: #2a2a2a;
+      border: 1px solid #00ffff;
+      border-radius: 6px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .grid-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+    }
+    .grid-item .media {
+      width: 100%;
+      display: block;
+    }
+    .grid-item .content {
+      padding: 15px;
+      text-align: center;
+    }
+    .grid-item .content h3 {
+      margin-bottom: 10px;
+      font-size: 1.5em;
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff;
+    }
+    .grid-item .content p {
+      font-size: 1em;
+      color: #ccc;
+    }
+    footer {
+      background: #141414;
+      color: #e0e0e0;
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #00ffff;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- رأس الصفحة -->
+  <header>
+    <img src="images/logo.jpg" alt="VORTEX STUDIO Logo" class="logo">
+    <h1>VORTEX STUDIO💫</h1>
+  </header>
+
+  <!-- شريط التنقل -->
+  <nav>
+    <ul>
+      <li><a href="index.html">الرئيسية</a></li>
+      <li><a href="team.html">الأعضاء</a></li>
+      <li><a href="videos.html">الفيديوهات</a></li>
+    </ul>
+  </nav>
+
+  <!-- قسم الفيديوهات -->
+  <section>
+    <h2>الفيديوهات</h2>
+    <div class="grid-container">
+      <!-- الفيديو الأول -->
+      <div class="grid-item">
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe src="https://www.youtube.com/embed/5WnT020KLXE" 
+                  style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <div class="content">
+          <h3>بداية الفريق الاصطورية🚀🔥|| vortex studio🎬</h3>
+          <p>قناة الفريق الرئيسية</p>
+        </div>
+      </div>
+      <!-- الفيديو الثاني -->
+      <div class="grid-item">
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe src="https://www.youtube.com/embed/KsYNe2E61Bk" 
+                  style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <div class="content">
+          <h3>ا"كيف حذفت فيديو كامل قبل نشره؟! 😢😂" فيديو تسليكي 😅</h3>
+          <p>قناة انميشن ELECTRO</p>
+        </div>
+      </div>
+      <!-- الفيديو الثالث -->
+      <div class="grid-item">
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe src="https://www.youtube.com/embed/QXkP6LgjEk8" 
+                  style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <div class="content">
+          <h3>مقدمة القناة 🌸</h3>
+          <p>قناة 
+أوتاكو ميمي otaku MiMi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- التذييل -->
+  <footer>
+    <p>&copy; 2025 VORTEX STUDIO. جميع الحقوق محفوظة.</p>
+  </footer>
+
+</body>
+</html>
